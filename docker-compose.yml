@@ -5,7 +5,7 @@ services:
     image: nginx:latest
     container_name: static-website
     volumes:
-      - ./site:/usr/share/nginx/html:ro
+      - ./docs:/usr/share/nginx/html:ro
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
     ports:
       - "8080:80"
