@@ -10,21 +10,72 @@
       <meta name="author" content="Marc Bernet">
       <meta name="keywords" content="Marc Bernet, backend developer, guitarist, photographer, Laravel expert, Barcelona photographer, music collaborations, street photography, Alice & The Wonders">
       <meta name="robots" content="index, follow">
-      <meta property="og:title" content="Marc Bernet - Developer, Photographer & Guitarist">
-      <meta property="og:description" content="Discover Marc Bernet's work as a developer, guitarist, and photographer in Barcelona. Explore his projects, music, and photography." />
+
+      <!-- Canonical -->
+      <link rel="canonical" href="https://www.marcbernet.com/about.html">
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="About Marc Bernet - Developer, Photographer & Guitarist">
+      <meta property="og:description" content="Discover Marc Bernet's work as a developer, guitarist, and photographer in Barcelona. Explore his projects, music, and photography.">
       <meta property="og:image" content="https://www.marcbernet.com/img/about/IMG_7517.jpg">
       <meta property="og:url" content="https://www.marcbernet.com/about.html">
-      <meta property="og:type" content="website">
+      <meta property="og:type" content="profile">
+      <meta property="og:locale" content="en_US">
+
+      <!-- Twitter Card -->
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:title" content="Marc Bernet - Developer, Photographer & Guitarist">
+      <meta name="twitter:title" content="About Marc Bernet - Developer, Photographer & Guitarist">
       <meta name="twitter:description" content="Explore the portfolio of Marc Bernet, a versatile developer, musician, and photographer based in Barcelona.">
       <meta name="twitter:image" content="https://www.marcbernet.com/img/about/IMG_7517.jpg">
-      <!-- end metas -->
 
-      <title>Marc Bernet - Developer / Photographer / Guitarist</title>
-      <!-- Css -->
+      <!-- Favicon -->
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+      <title>About Marc Bernet - Developer, Photographer & Guitarist</title>
+
+      <!-- Preload critical resources -->
+      <link rel="preload" href="css/bootstrap.min.css" as="style">
+      <link rel="preload" href="css/style.css" as="style">
+      <link rel="preload" href="fonts/glyphicons-halflings-regular.woff2" as="font" type="font/woff2" crossorigin>
+      <link rel="preload" href="img/about/IMG_7517.jpg" as="image">
+
+      <!-- CSS -->
       <link href="css/bootstrap.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
+
+      <!-- Structured Data -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "mainEntity": {
+          "@type": "Person",
+          "name": "Marc Bernet",
+          "url": "https://www.marcbernet.com/about.html",
+          "image": "https://www.marcbernet.com/img/about/IMG_7517.jpg",
+          "jobTitle": "Backend Developer, Photographer & Guitarist",
+          "description": "Backend developer specializing in PHP and Laravel, guitarist in Alice & The Wonders, and photographer focused on street, travel, and portrait photography.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Barcelona",
+            "addressCountry": "ES"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/mbernet",
+            "https://www.instagram.com/mbernet/"
+          ],
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Liquid Studio",
+            "url": "https://www.liquidbcn.com/"
+          },
+          "memberOf": {
+            "@type": "MusicGroup",
+            "name": "Alice & The Wonders"
+          }
+        }
+      }
+      </script>
    </head>
    <body>
       <nav class="navbar navbar-default color-fill navbar-fixed-top">
@@ -57,7 +108,7 @@
                      I'm a developer, guitarist, and photographer based in Barcelona
                   </h1>
                   <br>
-                  <img class="img-responsive margin-top-45" src="img/about/IMG_7517.jpg" alt="me">
+                  <img class="img-responsive margin-top-45" src="img/about/IMG_7517.jpg" alt="Marc Bernet, developer, guitarist and photographer based in Barcelona">
                </div>
             </div>
             <br>
